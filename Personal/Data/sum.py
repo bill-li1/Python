@@ -1,6 +1,6 @@
 total = 0
 
-with open('numbers.txt', 'r') as inp:
+with open('numbers2.txt', 'r') as inp:
     for line in inp:
         num = float(line)
         total += num
