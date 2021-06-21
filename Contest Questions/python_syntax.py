@@ -21,3 +21,4 @@ print(f'The value of x is {x} and the value of y is {y}') # similar to
 
 n, m = [int(x) for x in input().split()]
 print(f'The value of n is {n} and the value of m is {m}') # similar to 
+
