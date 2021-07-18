@@ -1,12 +1,12 @@
 s = input()
-mstart = s.count('L')
-sstart = mstart + s.count('M')
-ml = s[mstart:sstart].count('L')
-ms = s[mstart:sstart].count('S')
-sl = s[sstart:].count('L')
-sm = s[sstart:].count('M')
+m_start = s.count('L')
+s_start = m_start + s.count('M')
+ml = s[m_start:s_start].count('L')
+ms = s[m_start:s_start].count('S')
+sl = s[s_start:].count('L')
+sm = s[s_start:].count('M')
 count = 0
-for c in s[:mstart]:
+for c in s[:m_start]:
     if c == 'M':
         count += 1
         if ml > 0:
