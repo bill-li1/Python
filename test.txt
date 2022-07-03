@@ -1,0 +1,2 @@
+inside ["haha lol"]
+outside [1, 2, 3, "haha lol"]
