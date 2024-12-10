@@ -1,5 +1,10 @@
-import numpy as np
+a0 = 0 * 0.01
+a1 = 0 * 0.13
+a2 = 68 / 74 * 0.13
+a3 = 53 / 64 * 0.13
+a4 = 61 / 62 * 0.13
+midterm = 35 / 67 * 0.15
+final = 25 / 100 * 0.32
 
-m = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(m[0, 0])
-print(m)
+print(a0 + a1 + a2 + a3 + a4 + midterm + final)
+
